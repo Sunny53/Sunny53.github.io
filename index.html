@@ -68,37 +68,16 @@
             <div class="content">
               <h2 class="major">About me</h2>
               <p>
-  I'm a data-focused developer with a strong foundation in Python, SQL,
-  and building practical data-driven applications.
-</p>
-<p>
-  My work sits at the intersection of data analysis and engineering. I
-  enjoy taking raw, unstructured data and turning it into something
-  useful, whether that's through cleaning and transformation, building
-  pipelines, or creating visualizations that highlight meaningful
-  insights.
-</p>
-<p>
-  I started with web development, which taught me to think about the
-  people using what I build. Since then I've moved toward working with
-  data at scale: processing, analysis, and the backend workflows that
-  keep it reliable.
-</p>
-              <p>
-                <strong
-                  >I’m particularly interested in roles where I can:</strong
-                >
+                I'm an aspiring data engineer in Savannah, GA, with a B.S. in Information Technology (Data Analysis) from Georgia Southern University. I build pipelines that take messy data and make it trustworthy: ingestion, transformation, testing, and the SQL that serves it.
               </p>
-              <ul>
-                <li>Work with real datasets and solve practical problems</li>
-                <li>Build and optimize data workflows</li>
-                <li>
-                  Contribute to systems that support data-driven decisions
-                </li>
-              </ul>
               <p>
-                <strong>Tech stack:</strong> Python (Pandas, NumPy), SQL,
-                JavaScript, Tableau, Git
+                I started in web development, which taught me to think about the people who use what I build. Today my focus is data work: dbt and Snowflake models, PostgreSQL schemas, and Python ETL, with automated tests and honest documentation of what the data can and can't show.
+              </p>
+              <p>
+                I'm looking for entry-level data engineering and analytics engineering roles where I can build and maintain reliable data workflows.
+              </p>
+              <p>
+                <strong>Tech stack:</strong> Python (Pandas, SQLAlchemy), SQL, dbt, Snowflake, PostgreSQL, Streamlit, Git, GitHub Actions, Excel
               </p>
             </div>
           </div>
@@ -122,10 +101,10 @@
                   ><img src="images/video_thumbnail.png" alt="Automated Logistics Risk project thumbnail"
                 /></a>
                 <h3 class="major">Automated Logistics Risk</h3>
-                <p>A dbt + Snowflake pipeline joining historical e-commerce orders with real historical weather to test whether severe weather predicts late deliveries.</p>
+                <p>A dbt + Snowflake pipeline joining 99,441 Brazilian e-commerce orders with 10M+ historical weather records. Orders were 3.2x more likely to be late when severe weather hit the delivery destination (17.3% vs. 5.3%). Includes a Type 2 slowly changing dimension, automated data quality tests, and resumable ingestion that survived an undocumented API rate limit. Findings are reported with correlation-vs-causation caveats.</p>
                 <ul class="actions">
                   <li>
-                    <a href="https://www.youtube.com/watch?si=TsYUkdkEI1s6zIK1&amp;v=No_hNBfRKsI&amp;feature=youtu.be" target="_blank" class="button">Walkthrough video</a>
+                    <a href="https://www.youtube.com/watch?v=No_hNBfRKsI" target="_blank" class="button">Walkthrough video</a>
                   </li>
                   <li>
                     <a href="https://github.com/Sunny53/Automated_Logistics_Risk/blob/main/notebooks/analysis.ipynb" target="_blank" class="button">Notebook</a>
@@ -141,7 +120,7 @@
                   ><img src="images/nflStats_sc.png" alt="NFL Stats Pipeline dashboard screenshot"
                 /></a>
                 <h3 class="major">NFL Stats Pipeline</h3>
-                <p>A web application that displays unique NFL statistics derived from cleaned external APIs</p>
+                <p>An ETL pipeline and Streamlit dashboard for NFL QB and WR performance, 2015-2025. Joins weekly stats to real snap counts through an ID crosswalk, loads a star-schema PostgreSQL database (Supabase), and serves 12 SQL leaderboard views. Custom metrics include snap efficiency and a consistency score based on week-to-week variation. Includes unit tests and CI.</p>
                 <ul class="actions">
                   <li>
                     <a href="https://nfl-stats-pipeline.streamlit.app/" target="_blank" class="button">Live dashboard</a>
@@ -300,9 +279,6 @@
             </li>
             <li class="icon solid fa-envelope">
               <a href="mailto:sunnykp5397@gmail.com">Email</a>
-            </li>
-            <li class="icon brands fa-linkedin">
-              <a href="[LINKEDIN_URL]" target="_blank">LinkedIn</a>
             </li>
             <li class="icon solid fa-file">
               <a href="images\SunnyPatel_DAresume.pdf" target="_blank">Resume</a>
